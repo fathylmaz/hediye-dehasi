@@ -1,5 +1,10 @@
 # ✳ Hediye Dehası — Açıklanabilir Hediye Seçim Uzman Sistemi
 
+[![Quality checks](https://github.com/fathylmaz/hediye-dehasi/actions/workflows/ci.yml/badge.svg)](https://github.com/fathylmaz/hediye-dehasi/actions/workflows/ci.yml)
+
+**Hızlı bağlantılar:** [Akademik rapor (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf) · [Proje sunumu (PDF)](docs/Hediye_Dehasi_Proje_Sunumu_Fatih_Gamze.pdf) · [Kurulum](INSTALL_WINDOWS.md) · [English](README_EN.md)
+
+
 **Hazırlayanlar:** Fatih Yılmaz · Gamze Özateş
 
 **Akademik rapor:** [Uzman Sistem Geliştirme Raporu (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf)
@@ -132,6 +137,14 @@ npm.cmd run build
 # backend dizininde
 .\.venv\Scripts\python.exe -m pytest -q
 ```
+
+## Akademik köken ve katkılar
+
+Hediye seçimi uzman sistemi fikri, üniversitedeki **ekip çalışması** kapsamında doğmuştur. Bu depoda yayımlanan yazılımın ve belgelerin hazırlayanları **Fatih Yılmaz** ve **Gamze Özateş** olarak belirtilir. Özgün üniversite çalışmasında başka ekip rolleri de vardır; kişisel bilgiler ve katkı atıfları izinsiz paylaşılmamalıdır. Kaynak puanları bağımsız güvenlik veya ürün kalitesi doğrulaması anlamına gelmez.
+
+## Kullanım ve lisans durumu
+
+Depoda henüz açık kaynak lisansı (`LICENSE`) yoktur. Kodun GitHub üzerinde görünür olması, üçüncü kişilere otomatik olarak yeniden dağıtma veya ticari kullanım izni vermez. Kaynak verilerin yeniden paylaşım hakları ve ekip katkıları ayrıca doğrulanmalıdır.
 
 ## Veri yeniden üretimi
 
