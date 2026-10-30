@@ -12,10 +12,10 @@
 - [ ] v3 Docker `compose ps`, API `health` ve ekran görüntüleri ayrı olarak belgelenip depoya eklendi.
 - [x] v3 öneri sistemi, iki sıralama modu, veri yeterliliği ve uzman kural açıklamaları manuel kontrol edildi.
 - [ ] v3 temsilî ürün simgeleri için ürün bazlı görsel kayıt oluşturuldu.
-- [ ] GitHub Actions test+build ikisi de geçti.
+- [x] GitHub Actions backend testleri ve frontend derlemesi en son yüklemeden sonra başarılı (30 Ekim 2026; Actions run #2).
 - [ ] Kritik erişilebilirlik ve güvenlik kontrolleri yapıldı.
 - [x] Yayın paketinde öğrenci numarası/e-posta/telefon/anahtar biçiminde içerik için metin taraması yapıldı; örnek eşleşme bulunmadı.
 - [ ] Ürün kaynak verilerinin ve akademik materyallerin **paylaşım hakları kullanıcı tarafından** doğrulandı.
-- [ ] Son akademik rapor ve sunum doğrulanmış sonuçlarla güncellendi.
+- [x] Akademik rapor ve proje sunumu GitHub deposunda; PDF belgeleri yayımlandı.
 
-**İddia sınırı:** v3 backend testleri ve dört manuel akış kontrolü başarılıdır, ancak GitHub Actions, yayın hakları ve dağıtım kontrolü için üstteki açık maddeler gereklidir. Eski üniversite çalışması ile bu sürümdeki 2026 yeniden mühendislik çalışması ayrı tanımlanmalıdır.
+**İddia sınırı:** v3 backend testleri ve dört manuel akış kontrolü başarılıdır, ancak Yayın hakları, erişilebilirlik ve bağımsız doğrulama için üstteki açık maddeler gereklidir. Eski üniversite çalışması ile bu sürümdeki 2026 yeniden mühendislik çalışması ayrı tanımlanmalıdır.
