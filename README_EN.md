@@ -1,0 +1,57 @@
+# Hediye Dehası — Explainable, Rule-Based Gift Recommendation System
+
+**Project authors:** Fatih Yılmaz · Gamze Özateş
+
+**Academic report (Turkish):** [Expert System Development Report (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf)
+
+**Hediye Dehası** is a rebuilt version (2026) of a university expert-system project focused on choosing age-appropriate gifts for children. It uses deterministic expert rules and transparent multi-criteria scores, **not** a trained ML model or a product-safety certification service.
+
+## What it does
+
+- Three-step recommendation wizard: age, development goals, interests and preferences.
+- Hard eligibility constraints: age, optional quietness, technology intensity and a **source-data safety rating** threshold.
+- Weighted 0–100 compatibility scoring with per-product component breakdown, explanatory reasons and fired-rule traces.
+- Source-data field coverage shown **separately** from compatibility; missing inputs are not fabricated.
+- Two ranking policies: evidence-coverage-first (default), or score-only.
+- 397 normalized catalog records; search, category filters and detailed product profiles.
+- Responsive Turkish UI, Python REST API, SQLite storage, Docker Compose and automated backend tests.
+
+## Stack
+
+| Layer | Technology |
+|---|---|
+| Web | React, TypeScript, Vite |
+| API | Python, FastAPI, Pydantic |
+| Rules | Deterministic forward rule checks and weighted scoring |
+| Persistence | SQLite; JSON catalog with provenance |
+| Deployment | Docker Compose, Nginx |
+| Quality | pytest, GitHub Actions |
+
+## Local setup
+
+From the repository root with Docker Desktop running:
+
+```bash
+docker compose up --build -d
+docker compose ps
+```
+
+- Web UI: http://localhost:8080
+- API documentation: http://localhost:8000/docs
+- Stop: `docker compose down`
+
+For Windows-only setup and development without Docker, see [INSTALL_WINDOWS.md](INSTALL_WINDOWS.md). The detailed Turkish project overview and source-data limitations are in [README.md](README.md).
+
+## Validation status
+
+- **29/29 backend tests passed** again in the preparation environment.
+- User reported that v3 runs locally and confirmed **4/4** key manual workflows (recommendation generation, ranking modes, evidence coverage and rule explanations).
+- Independent v3 local `npm run build` transcript and GitHub Actions results are not yet attached to this release. A running site is not a substitute for CI or end-to-end browser tests.
+
+## Data and limitations
+
+Catalog values originate from an older academic dataset. There are **no verified live prices, stock levels, official age/safety certificates, or authentic product photographs**. Compatibility scores are rankings, **not probabilities**. Field coverage measures availability of input fields, not reliability, safety or accuracy. The software is an academic decision-support prototype, not a shopping or medical/safety authority.
+
+Source-data redistribution rights should be checked before making the repository public. Original interview and presentation files containing participant identifiers are excluded. The university project and the 2026 re-engineering work should be credited separately.
+
+See [GitHub publishing guide](docs/GITHUB_PUBLISHING.md) and [release notes](docs/PUBLICATION_NOTES.md).

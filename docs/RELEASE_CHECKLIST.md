@@ -1,0 +1,21 @@
+# v3 Yayın / GitHub / LinkedIn Hazırlık Kontrolü
+
+- [x] Orijinal iki veri kaynağı değiştirilmeden korundu, 397 normalize kayıt tekrar kullanıldı.
+- [x] Kesin eleme ve hesaplanan ham skor değişmeden korundu.
+- [x] Alan doluluk göstergesi, eksik alan listesi ve iki sıralama modu uygulandı.
+- [x] Temsili ürün simgeleri gerçek ürün fotoğrafı sanılmayacak şekilde etiketlendi.
+- [x] 29 backend otomatik test başarılı.
+- [x] v3 frontend TS/TSX dosyalarının sözdizimi kontrol edildi.
+- [x] v2 kullanıcı Windows ortamında 22 test, tam build, Docker ve öneri modalını doğruladı.
+- [ ] v3 Windows ortamında `npm.cmd run build` hatasız geçti.
+- [x] v3 yerel site açıldı (kullanıcı bildirimi); yeni UI akışları manuel kontrol edildi.
+- [ ] v3 Docker `compose ps`, API `health` ve ekran görüntüleri ayrı olarak belgelenip depoya eklendi.
+- [x] v3 öneri sistemi, iki sıralama modu, veri yeterliliği ve uzman kural açıklamaları manuel kontrol edildi.
+- [ ] v3 temsilî ürün simgeleri için ürün bazlı görsel kayıt oluşturuldu.
+- [ ] GitHub Actions test+build ikisi de geçti.
+- [ ] Kritik erişilebilirlik ve güvenlik kontrolleri yapıldı.
+- [x] Yayın paketinde öğrenci numarası/e-posta/telefon/anahtar biçiminde içerik için metin taraması yapıldı; örnek eşleşme bulunmadı.
+- [ ] Ürün kaynak verilerinin ve akademik materyallerin **paylaşım hakları kullanıcı tarafından** doğrulandı.
+- [ ] Son akademik rapor ve sunum doğrulanmış sonuçlarla güncellendi.
+
+**İddia sınırı:** v3 backend testleri ve dört manuel akış kontrolü başarılıdır, ancak GitHub Actions, yayın hakları ve dağıtım kontrolü için üstteki açık maddeler gereklidir. Eski üniversite çalışması ile bu sürümdeki 2026 yeniden mühendislik çalışması ayrı tanımlanmalıdır.

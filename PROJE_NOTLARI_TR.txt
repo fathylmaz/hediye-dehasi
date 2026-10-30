@@ -1,0 +1,26 @@
+HEDIYE DEHASI - v3.0 GITHUB YAYININA HAZIRLIK - 30 EKIM 2026
+
+Bu paket universitedeki Hediye Secim Uzman Sistemi fikrinin 2026'da
+bastan gelistirilmis surumunun kaynak kodlarini ve teknik belgelerini icerir.
+
+KURULUM:
+1. Projenin kok klasorunu VS Code'da acin.
+2. Docker Desktop'i acin.
+3. docker compose up --build -d
+4. Tarayici: http://localhost:8080
+5. API: http://localhost:8000/docs
+
+GITHUB YAYINI:
+docs/GITHUB_PUBLISHING.md belgesini okuyun.
+
+DOGRULAMA DURUMU:
+- Bu hazirlik paketinde 29/29 backend testi basarili.
+- Kullanici v3'u yerel bilgisayarda acti ve oneriler, iki siralama,
+  veri yeterliligi ve kural aciklamalari icin 4/4 kontrolu basarili bildirdi.
+- v3'e ait ayrica kaydedilmis npm.cmd run build ve GitHub Actions
+  sonuclari henuz bu pakette bulunmuyor; GitHub'da CI kontrolu yapin.
+- Lisans, kaynak verilerin herkese acik paylasim haklari ve gercek urun
+  guvenligi dogrulamalari tamamlanmis sayilmaz.
+- Uyum puani olasilik veya sertifika degildir.
+- Orijinal mulakat/sunum belgeleri kisilerle ilgili bilgiler iceriyor
+  olabileceginden bu dagitim paketine eklenmedi.

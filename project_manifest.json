@@ -1,0 +1,50 @@
+{
+  "name": "Hediye Dehası",
+  "version": "3.0.0",
+  "date": "2026-10-30",
+  "project_type": "University project re-engineering; explainable rule-based decision support",
+  "original_records": 400,
+  "catalog_records": 397,
+  "provenance_files": [
+    {
+      "path": "data/raw/products_legacy.json",
+      "sha256": "182fc7e8427630cc0f26fce6546a023b9464d93562554c357dc20d0bee3f69c7"
+    },
+    {
+      "path": "data/raw/products_extended.json",
+      "sha256": "a60c908588ee397e6c8711913a58d923d345fe53e2952510fa508fa84eaf226b"
+    },
+    {
+      "path": "data/processed/catalog.json",
+      "sha256": "c57da7b1e2bbf64d3559c69fe69c7d615326f9be342dc63bbc38d100fd7cd1f4"
+    }
+  ],
+  "quality_status": {
+    "backend_pytest_v3": "29 passed again (GitHub publication preparation environment)",
+    "frontend_v3_syntax": "TypeScript parser: App.tsx, api.ts, main.tsx, types.ts no syntax errors",
+    "frontend_v3_build": "no separate Windows npm.cmd run build transcript supplied for v3; GitHub Actions pending",
+    "frontend_v2_build": "passed on user Windows system (tsc -b && vite build)",
+    "docker_v2_windows": "both services healthy/up, API 2.0.0, product detail tested with screenshot",
+    "docker_v3_windows": "user reported v3 site running locally; separate compose ps / health transcript pending",
+    "v3_manual": "user reported 4/4 checks passed: recommendations, ranking modes, evidence coverage, rule explanations (2026-10-30)"
+  },
+  "limitations": [
+    "no verified live prices or stock",
+    "no certified product-safety verification",
+    "compatibility score is not a probability"
+  ],
+  "changes_v2": [
+    "Per-recommendation score breakdown in product detail",
+    "Human-readable rule execution trace in detail",
+    "Keyboard focus containment and return for dialog",
+    "Four new backend tests for explanation and hard constraints",
+    "Updated Windows setup instructions and release documentation"
+  ],
+  "changes_v3": [
+    "Separate evidence field completeness with visible missing metrics and evidence tiers",
+    "Choice of evidence-first (default) or score-only ranking without changing raw scores",
+    "Name-aware illustrative emojis labeled as representative imagery",
+    "User-friendly rule descriptions and developer-only rule IDs",
+    "7 additional backend tests; documentation / Windows upgrade guide"
+  ]
+}
