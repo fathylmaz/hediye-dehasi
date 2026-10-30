@@ -10,8 +10,8 @@
 
 ## Açık kontroller
 
-- v3 için **bağımsız** Windows `npm.cmd run build` günlüğü ve GitHub Actions sonuçları bu pakette yok. Kullanıcının yerel sitenin çalıştığını bildirmesi, CI başarısı anlamına gelmez.
-- Kaynak veri ve kodun herkese açık yeniden paylaşımı için hak sahibi onayları kullanıcı tarafından teyit edilmeli.
+- v3 için ayrı bir Windows `npm.cmd run build` çıktısı rapora eklenmemiştir. Ancak GitHub Actions `Quality checks` iş akışının ikinci çalışması 30 Ekim 2026 tarihinde **başarılı** tamamlanmıştır (backend testleri ve frontend üretim derlemesi). Bu durum uçtan uca tarayıcı testlerinin yapıldığı anlamına gelmez.
+- Kaynak veri, akademik materyal ve kodun herkese açık paylaşımında hak sorunu bulunmadığı proje sahibi tarafından teyit edildi; bu teyit bağımsız hukuk denetimi değildir.
 - Otomatik tarayıcı E2E, erişilebilirlik denetimi ve canlı internete açılmaya yönelik güvenlik kontrolleri tamamlanmadı.
 - Orijinal uzman görüşmeleri, anket metodolojisi ve ürün kriterlerinin bağımsız uzman doğrulaması henüz yeniden değerlendirilmedi.
 - Çocuklar için yaş uygunluğu ve güvenlik puanları üretici sertifikası yerine geçmez.
@@ -23,3 +23,7 @@ Uyum skorları hesaplanan **sıralama puanlarıdır**, olasılık veya güvenlik
 ## Akademik atıf ve proje sahipliği
 
 Bu depo, üniversitede geliştirilen **Hediye Seçim Uzman Sistemi** fikrinin **2026'da yeniden yazılmış mühendislik sürümüdür**. Orijinal proje tarihleri ve varsa ekip katkıları uygun biçimde atfedilmeli; sonradan eklenen React/FastAPI, testler, Docker, açıklanabilir puanlama ve veri kapsamı özellikleri orijinal teslimin parçasıymış gibi anlatılmamalıdır.
+
+## Açık kaynak lisansı
+
+Projede [MIT Lisansı](../LICENSE) uygulanır. `CITATION.cff` akademik atıf bilgilerini, `CONTRIBUTING.md` ortak katkı iş akışını açıklar. Üçüncü kişilere ait markalar ve ürün isimleri kendi hak sahiplerine aittir.

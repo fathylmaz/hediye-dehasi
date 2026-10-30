@@ -112,7 +112,7 @@ Farklı yaş aralığıyla kaydedilmiş aynı isimli ürünler ayrı kayıt olar
 
 [GitHub yayın rehberi](docs/GITHUB_PUBLISHING.md) · [Yayın öncesi açıklamalar ve sınırlamalar](docs/PUBLICATION_NOTES.md) · [English README](README_EN.md)
 
-Bu depodaki kaynak JSON dosyaları kullanıcının üniversite projesine aittir. Herkese açık yayımlamadan önce veri ve diğer içeriklerin paylaşım hakları sahipleri tarafından teyit edilmelidir. Orijinal mülakat, ekip listesi ve öğrenci numarası içeren belgeler bu pakette **yer almaz**.
+Kaynak JSON dosyaları üniversite projesinden alınmıştır; bu dosyaların ve ilgili belgelerin paylaşımına ilişkin haklar proje sahipleri tarafından teyit edilmiştir. Orijinal mülakat, ekip listesi ve öğrenci numarası içeren belgeler bu depoda **yer almaz**.
 
 ## Belgeler
 
@@ -142,9 +142,11 @@ npm.cmd run build
 
 Hediye seçimi uzman sistemi fikri, üniversitedeki **ekip çalışması** kapsamında doğmuştur. Bu depoda yayımlanan yazılımın ve belgelerin hazırlayanları **Fatih Yılmaz** ve **Gamze Özateş** olarak belirtilir. Özgün üniversite çalışmasında başka ekip rolleri de vardır; kişisel bilgiler ve katkı atıfları izinsiz paylaşılmamalıdır. Kaynak puanları bağımsız güvenlik veya ürün kalitesi doğrulaması anlamına gelmez.
 
-## Kullanım ve lisans durumu
+## Lisans ve atıf
 
-Depoda henüz açık kaynak lisansı (`LICENSE`) yoktur. Kodun GitHub üzerinde görünür olması, üçüncü kişilere otomatik olarak yeniden dağıtma veya ticari kullanım izni vermez. Kaynak verilerin yeniden paylaşım hakları ve ekip katkıları ayrıca doğrulanmalıdır.
+**Lisans: [MIT](LICENSE)** — Fatih Yılmaz ve Gamze Özateş (2026). Depodaki proje yazılımı, özgün dokümantasyonu ve proje kapsamında paylaşılan veri setleri, hak sahibi olduğumuz ölçüde, MIT Lisansı kapsamında sunulmaktadır. Bu lisans kodun kullanılmasına, değiştirilmesine ve yeniden dağıtılmasına telif ve lisans bildirimi korunarak izin verir; herhangi bir garanti içermez. Ürün/marka adlarının üçüncü taraf ticari marka hakları bu lisansla devredilmez.
+
+Akademik kullanım için [CITATION.cff](CITATION.cff) ve ortak katkılar için [CONTRIBUTING.md](CONTRIBUTING.md) dosyalarına bakın. Kaynak veri ve akademik belgelerin paylaşımı için gerekli hakların uygun olduğu proje sahipleri tarafından teyit edilmiştir.
 
 ## Veri yeniden üretimi
 

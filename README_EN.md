@@ -65,14 +65,16 @@ For Windows-only setup and development without Docker, see [INSTALL_WINDOWS.md](
 
 The initial gift-selection expert system was a **university team project**, which included additional team roles beyond the two names listed for this repository. The current published software and documentation name **Fatih Yılmaz** and **Gamze Özateş** as authors. Original participants' identifiers and contribution details should only be published when verified and appropriately authorized.
 
-## License and reuse
+## License and citation
 
-No open-source `LICENSE` has been selected for this repository yet. Public visibility alone does not grant permission to redistribute or commercially reuse its code or academic datasets. Source-data redistribution rights and shared academic contributions require separate verification.
+**License: [MIT](LICENSE)** — Copyright (c) 2026 Fatih Yılmaz and Gamze Özateş. Original software, documentation and project datasets made available in this repository are provided under the MIT License to the extent covered by the authors' rights. The license permits reuse and modification with preservation of the copyright and license notices, and comes with no warranty. Third-party product names and trademarks remain with their respective owners.
+
+For academic attribution, see [CITATION.cff](CITATION.cff); for collaboration guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md). The project owners have confirmed that the academic source material may be shared.
 
 ## Data and limitations
 
 Catalog values originate from an older academic dataset. There are **no verified live prices, stock levels, official age/safety certificates, or authentic product photographs**. Compatibility scores are rankings, **not probabilities**. Field coverage measures availability of input fields, not reliability, safety or accuracy. The software is an academic decision-support prototype, not a shopping or medical/safety authority.
 
-Source-data redistribution rights should be checked before making the repository public. Original interview and presentation files containing participant identifiers are excluded. The university project and the 2026 re-engineering work should be credited separately.
+The project owners have confirmed redistribution rights for the included academic source materials. Original interviews and presentation files containing participant identifiers are excluded. The university work and subsequent engineering contributions should be credited accurately.
 
 See [GitHub publishing guide](docs/GITHUB_PUBLISHING.md) and [release notes](docs/PUBLICATION_NOTES.md).

@@ -11,7 +11,7 @@ Proje belgelerinde **Fatih Yılmaz ve Gamze Özateş** hazırlayan olarak listel
 - `data/raw` ve `data/processed` eski üniversite çalışmasındaki verilerden türetilmiştir. İçeriğin herkese açık paylaşımı için hak sahiplerinden gerekli izinlerin sizde olduğundan emin olun.
 - Başkalarına ait kaynak kodu, marka görseli, ücretli görsel, mülakat kaydı, katılımcı bilgisi, öğrenci numarası veya kullanıcı verisi depoya eklemeyin.
 - Bu paket **orijinal Word, Excel ve PowerPoint belgelerini içermez**; bunları doğrudan depoya sürüklemeyin.
-- Açık lisans seçimi yapılmadı. Lisans eklemek isterseniz kaynak verilerin yeniden dağıtımı bakımından uygun izinleri kontrol edin; lisans seçmeden de GitHub deposu oluşturabilirsiniz.
+- Depoda [MIT Lisansı](../LICENSE) bulunmaktadır. Kaynak verilerin paylaşım hakları proje sahibi tarafından teyit edilmiştir; üçüncü taraf marka hakları saklıdır.
 
 ## 2. GitHub'da boş depo açın
 

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Hediye Dehası in academic work, please cite this repository."
+type: software
+title: "Hediye Dehası — Açıklanabilir Hediye Seçim Uzman Sistemi"
+abstract: "An explainable rule-based gift recommendation expert system using a normalized academic product catalog, deterministic eligibility rules, transparent multi-criteria scoring and data coverage-aware ranking."
+authors:
+  - family-names: "Yılmaz"
+    given-names: "Fatih"
+  - family-names: "Özateş"
+    given-names: "Gamze"
+repository-code: "https://github.com/fathylmaz/hediye-dehasi"
+version: "3.0.0"
+license: MIT
+keywords:
+  - expert-system
+  - decision-support-system
+  - explainable-recommendation
+  - rule-based-system

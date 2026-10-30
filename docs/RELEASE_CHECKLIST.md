@@ -15,7 +15,9 @@
 - [x] GitHub Actions backend testleri ve frontend derlemesi en son yüklemeden sonra başarılı (30 Ekim 2026; Actions run #2).
 - [ ] Kritik erişilebilirlik ve güvenlik kontrolleri yapıldı.
 - [x] Yayın paketinde öğrenci numarası/e-posta/telefon/anahtar biçiminde içerik için metin taraması yapıldı; örnek eşleşme bulunmadı.
-- [ ] Ürün kaynak verilerinin ve akademik materyallerin **paylaşım hakları kullanıcı tarafından** doğrulandı.
+- [x] Kaynak verilerinin ve akademik materyallerin paylaşım hakları proje sahibi tarafından teyit edildi (30 Ekim 2026).
 - [x] Akademik rapor ve proje sunumu GitHub deposunda; PDF belgeleri yayımlandı.
+- [x] MIT `LICENSE`, `CITATION.cff` ve ortak katkı yönergeleri eklendi.
+- [ ] Depo GitHub ayarlarından `Public` yapıldı ve anonim erişim kontrol edildi.
 
 **İddia sınırı:** v3 backend testleri ve dört manuel akış kontrolü başarılıdır, ancak Yayın hakları, erişilebilirlik ve bağımsız doğrulama için üstteki açık maddeler gereklidir. Eski üniversite çalışması ile bu sürümdeki 2026 yeniden mühendislik çalışması ayrı tanımlanmalıdır.
