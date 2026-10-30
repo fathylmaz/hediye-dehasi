@@ -1,5 +1,10 @@
 # Hediye Dehası — Explainable, Rule-Based Gift Recommendation System
 
+[![Quality checks](https://github.com/fathylmaz/hediye-dehasi/actions/workflows/ci.yml/badge.svg)](https://github.com/fathylmaz/hediye-dehasi/actions/workflows/ci.yml)
+
+**Quick links:** [Academic report (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf) · [Project slides (PDF)](docs/Hediye_Dehasi_Proje_Sunumu_Fatih_Gamze.pdf) · [Setup](INSTALL_WINDOWS.md) · [Türkçe](README.md)
+
+
 **Project authors:** Fatih Yılmaz · Gamze Özateş
 
 **Academic report (Turkish):** [Expert System Development Report (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf) · [Project presentation (PDF)](docs/Hediye_Dehasi_Proje_Sunumu_Fatih_Gamze.pdf)
@@ -55,6 +60,14 @@ For Windows-only setup and development without Docker, see [INSTALL_WINDOWS.md](
 - **29/29 backend tests passed** again in the preparation environment.
 - User reported that v3 runs locally and confirmed **4/4** key manual workflows (recommendation generation, ranking modes, evidence coverage and rule explanations).
 - The repository owner reported a green GitHub Actions run after the first push (backend tests and frontend build workflow). A separate local v3 build transcript and detailed CI logs are not included in this document; end-to-end browser tests and external expert validation remain future work.
+
+## Academic origin and attribution
+
+The initial gift-selection expert system was a **university team project**, which included additional team roles beyond the two names listed for this repository. The current published software and documentation name **Fatih Yılmaz** and **Gamze Özateş** as authors. Original participants' identifiers and contribution details should only be published when verified and appropriately authorized.
+
+## License and reuse
+
+No open-source `LICENSE` has been selected for this repository yet. Public visibility alone does not grant permission to redistribute or commercially reuse its code or academic datasets. Source-data redistribution rights and shared academic contributions require separate verification.
 
 ## Data and limitations
 
