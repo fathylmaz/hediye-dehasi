@@ -2,7 +2,7 @@
 
 **Project authors:** Fatih Yılmaz · Gamze Özateş
 
-**Academic report (Turkish):** [Expert System Development Report (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf)
+**Academic report (Turkish):** [Expert System Development Report (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf) · [Project presentation (PDF)](docs/Hediye_Dehasi_Proje_Sunumu_Fatih_Gamze.pdf)
 
 **Hediye Dehası** is a rebuilt version (2026) of a university expert-system project focused on choosing age-appropriate gifts for children. It uses deterministic expert rules and transparent multi-criteria scores, **not** a trained ML model or a product-safety certification service.
 
@@ -15,6 +15,14 @@
 - Two ranking policies: evidence-coverage-first (default), or score-only.
 - 397 normalized catalog records; search, category filters and detailed product profiles.
 - Responsive Turkish UI, Python REST API, SQLite storage, Docker Compose and automated backend tests.
+
+## Screenshots
+
+The screenshots show a locally running application; product illustrations are representative rather than verified photographs.
+
+![Hediye Dehası home page](docs/images/ana_sayfa.png)
+
+![Recommendation scoring and explanation](docs/images/puan_aciklamasi.png)
 
 ## Stack
 
@@ -46,7 +54,7 @@ For Windows-only setup and development without Docker, see [INSTALL_WINDOWS.md](
 
 - **29/29 backend tests passed** again in the preparation environment.
 - User reported that v3 runs locally and confirmed **4/4** key manual workflows (recommendation generation, ranking modes, evidence coverage and rule explanations).
-- Independent v3 local `npm run build` transcript and GitHub Actions results are not yet attached to this release. A running site is not a substitute for CI or end-to-end browser tests.
+- The repository owner reported a green GitHub Actions run after the first push (backend tests and frontend build workflow). A separate local v3 build transcript and detailed CI logs are not included in this document; end-to-end browser tests and external expert validation remain future work.
 
 ## Data and limitations
 

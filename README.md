@@ -6,7 +6,7 @@
 
 **Hediye Dehası**, üniversite kapsamındaki hediye seçimi problemini açıklanabilir ve kural tabanlı karar destek yaklaşımıyla ele alan bir projedir. React + TypeScript arayüzü, Python / FastAPI uzman sistem servisi ve SQLite ürün kataloğu ile çalışır.
 
-> **Proje durumu (v3.0 — 30 Ekim 2026):** v3 yerel web uygulaması kullanıcı bilgisayarında açıldı; öneri oluşturma, iki sıralama modu, veri yeterliliği ve kural gerekçeleri **manuel olarak başarılı** bildirildi. Bu yayın hazırlık paketinde **29/29 backend testi yeniden çalıştırıldı**. v3 için bağımsız `npm.cmd run build` çıktısı ve GitHub Actions sonuçları henüz belgelenmedi; CI ilk push sonrasında kontrol edilmelidir. Uygulama, doğrulanmış ürün güvenliği sertifikasyon servisi değildir.
+> **Proje durumu (v3.0 — 30 Ekim 2026):** v3 yerel web uygulaması kullanıcı bilgisayarında açıldı; öneri oluşturma, iki sıralama modu, veri yeterliliği ve kural gerekçeleri **manuel olarak başarılı** bildirildi. Bu yayın hazırlık paketinde **29/29 backend testi yeniden çalıştırıldı**. İlk GitHub yüklemesinden sonra Actions iş akışının yeşil onay aldığı proje sahibi tarafından bildirildi. Bu akış backend testlerini ve frontend üretim derlemesini çalıştırır; bağımsız yerel v3 build günlüğü bu belgeye eklenmemiştir. Uygulama, doğrulanmış ürün güvenliği sertifikasyon servisi değildir.
 
 ## Ürün özellikleri
 
@@ -19,13 +19,25 @@
 - Arama, kategori filtresi, sayfalama, ürün detayları ve kriter profili
 - Responsive Türkçe arayüz, FastAPI OpenAPI dokümantasyonu, SQLite, otomatik testler, Docker Compose
 
+## Ekran görüntüleri
+
+Aşağıdaki görseller uygulamanın yerel ortamda çalıştırılan sürümünden alınmıştır. Görsellerdeki ürün illüstrasyonları temsilîdir.
+
+| Ana sayfa | Hediye seçim sihirbazı |
+|---|---|
+| ![Hediye Dehası ana sayfası](docs/images/ana_sayfa.png) | ![Üç adımlı hediye seçim sihirbazı](docs/images/secim_sihirbazi.png) |
+
+**Açıklanabilir öneri:** Ürün puanı; gelişim, ilgi ve eğitsel/pratik bileşenlerine ayrılır. Veri kapsamı ayrıca gösterilir.
+
+![Öneri puanı ve karar gerekçeleri](docs/images/puan_aciklamasi.png)
+
 ## v3.0 ile gelenler
 
 - Kaynak alan doluluğu ayrı **kanıt kapsamı göstergesi** olarak görünür: kullanılan puan alanı, toplam alan, eksik puanlar ve geniş/kısmi/sınırlı sınıfı.
 - İki sıralama modu: **Önce veri kapsamı, sonra skor** (varsayılan) ve eski sıralama ile uyumlu **yalnızca skor**. Her iki modda ham skor değişmez.
 - Ürün adlarından türetilen temsili ikonlar; gerçek ürün fotoğrafı olmadığı hem görselde hem erişilebilirlik açıklamasında belirtilir.
 - Teknik kuralların anlaşılır Türkçe metinleri doğrudan görüntülenir; kimlikleri geliştirici ayrıntılarında saklanır.
-- 7 ek backend testi: **29/29 geçti**. Kullanıcı v3 arayüzünü yerel ortamda açıp dört yeni akışı doğruladı; ayrı frontend build kanıtı ve GitHub Actions doğrulaması bekliyor.
+- 7 ek backend testi: **29/29 geçti**. Kullanıcı v3 arayüzünü yerel ortamda açıp dört yeni akışı doğruladı; ilk GitHub Actions çalışması için yeşil onay bildirdi.
 
 [**v2 → v3 yükseltme rehberi**](V3_GUNCELLEME_REHBERI.md) · [Veri yeterliliği politikası](docs/EVIDENCE_POLICY.md) · [Değişiklik günlüğü](docs/CHANGELOG.md)
 
@@ -99,7 +111,7 @@ Bu depodaki kaynak JSON dosyaları kullanıcının üniversite projesine aittir.
 
 ## Belgeler
 
-[Windows kurulumu](INSTALL_WINDOWS.md) · [Gereksinimler](docs/REQUIREMENTS.md) · [Mimari](docs/ARCHITECTURE.md) · [Bilgi tabanı](docs/KNOWLEDGE_BASE.md) · [Skorlama](docs/SCORING_METHOD.md) · [Veri sözlüğü](docs/DATA_DICTIONARY.md) · [Veri analizi](docs/DATA_AUDIT.md) · [Test planı](docs/TEST_PLAN.md) · [Akademik proje raporu (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf)
+[Windows kurulumu](INSTALL_WINDOWS.md) · [Gereksinimler](docs/REQUIREMENTS.md) · [Mimari](docs/ARCHITECTURE.md) · [Bilgi tabanı](docs/KNOWLEDGE_BASE.md) · [Skorlama](docs/SCORING_METHOD.md) · [Veri sözlüğü](docs/DATA_DICTIONARY.md) · [Veri analizi](docs/DATA_AUDIT.md) · [Test planı](docs/TEST_PLAN.md) · [Akademik proje raporu (PDF)](docs/Hediye_Dehasi_Uzman_Sistem_Gelistirme_Raporu.pdf) · [Proje sunumu (PDF)](docs/Hediye_Dehasi_Proje_Sunumu_Fatih_Gamze.pdf)
 
 ## Test ve doğrulama durumu
 
@@ -111,7 +123,7 @@ Bu depodaki kaynak JSON dosyaları kullanıcının üniversite projesine aittir.
 | v3: Backend otomatik testleri | **29/29 başarılı**, paket oluşturma ortamında |
 | v3: TS/TSX sözdizimi | Başarılı (TypeScript parser) |
 | v3: Yerel site, öneri, iki sıralama modu, veri kapsamı, kural açıklamaları | **Kullanıcı tarafından başarılı bildirildi** |
-| v3: Ayrı `npm.cmd run build` çıktısı ve GitHub Actions | **Henüz belgelenmedi / çalıştırılmadı** |
+| v3: GitHub Actions (backend test + frontend build) | **Yeşil onay, proje sahibi tarafından bildirildi**; ayrıntılı log raporu henüz eklenmedi |
 
 ```powershell
 # frontend dizininde
